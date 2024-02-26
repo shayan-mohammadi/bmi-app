@@ -1,0 +1,43 @@
+/* :root {
+    --page-inline-padding: 8.75rem;
+    --page-minimum-padding: 1.5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: min(1440px - var(--page-inline-padding),100% - var(--page-minimum-padding));
+    margin-inline: auto;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+
+} */
+:root {
+    --page-inline-padding: 8.75rem;
+    --page-minimum-padding: 1.5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Inter;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: min(1440px - var(--page-inline-padding),100% - var(--page-minimum-padding));
+    margin-inline: auto;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
